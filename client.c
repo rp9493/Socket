@@ -3,6 +3,7 @@
  *
  *  Created on: 19-Mar-2017
  *      Author: rp
+ 	this is client for IPv6
  */
 #include "sock.h"
 
