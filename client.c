@@ -22,6 +22,7 @@ int main(int argc,char *argv[])
 	v.sin_family = AF_INET;
 	v.sin_port = htons(atoi(argv[1]));
 	v.sin_addr.s_addr = inet_addr(ADDR_4);
+	//inet_pton(AF_INET6,argv[2],&v.sin_addr.s_addr);
 	socklen_t len = sizeof(v);
 #elif H_IPV6
 	sfd = socket(AF_INET6,SOCK_STREAM,0);
