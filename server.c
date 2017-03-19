@@ -40,7 +40,7 @@ int main(int argc,char *argv[])
 	listen(sfd,5);
 	nsfd=accept(sfd,(struct sockaddr *)&v,&len);
 	memset(s,0,sizeof(s));
-	read(nsfd,s,sizeof(v));
+	read(nsfd,s,sizeof(s));
 	printf("%s\n",s);
 	return 0;
 }
