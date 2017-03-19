@@ -2,7 +2,7 @@
  * sock.h
  *
  *  Created on: 19-Mar-2017
- *      Author: rp
+ *      Author: Rahul Patel
  */
 
 #ifndef SOCK_H_
